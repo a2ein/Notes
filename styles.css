@@ -3,6 +3,9 @@
 margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: rgba(0, 0, 0, 0.705);
+   font-weight: 500;
 }
 .space{
 
@@ -44,10 +47,7 @@ justify-content: space-evenly;
 flex-direction: row;
     display: flex;
 }
-main .home{
 
-
-}
 
 #is{ margin-left: 37%; width: 25%; height: ;}
 
