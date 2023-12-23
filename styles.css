@@ -1,0 +1,93 @@
+*{
+
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.space{
+
+    padding-left: 100px;
+}
+
+ .about .form {
+
+flex-direction: row;
+    display: flex;
+}
+#cc ul {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+    list-style:none ;
+}
+#cc a{
+background-color: rgba(0, 0, 0, 0.774);
+color: aliceblue;
+    text-decoration: none;
+}
+.header{
+   text-align: center;
+   font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+font-style: bold;
+}
+
+body{
+
+background: linear-gradient(rgba(0, 0, 0, 0.027),rgba(0, 0, 0, 0.075));
+    padding: 10px;
+}
+footer ul{
+justify-content: space-evenly;
+flex-direction: row;
+    display: flex;
+}
+main .home{
+
+
+}
+
+#is{ margin-left: 37%; width: 25%;}
+
+.about{
+
+
+    padding: 8%;
+}
+
+
+.content{
+
+
+
+
+    padding: 2%;
+}
+.news  {
+display: flex;
+flex-direction: row;
+ background-color: rgba(255, 228, 196, 0.705);
+}
+.new{
+
+    background-color: rgba(6, 121, 30, 0.363);
+}
+
+.boxparent{
+flex-direction: row;
+flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+align-items: center;
+    text-align: center;
+padding: 5px;
+}
+.box a {
+
+    text-align: center;
+}
