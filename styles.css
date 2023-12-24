@@ -101,3 +101,17 @@ input , textarea{
 
     border: none;
 }
+.question{
+
+justify-content: space-between;
+flex-wrap: wrap;
+    display: flex;
+}
+.di{
+
+
+
+
+
+    background-color: aquamarine;
+}

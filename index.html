@@ -204,7 +204,7 @@
 
 
       </div>
-      <hr>
+      <hr style="margin-left:30%" width="50%">
       <!--book-->
       <div class="booksec">
         <div class="boxparent">
@@ -242,9 +242,9 @@
 
 
   <!--question-->
-
+ <div class="header">Query Center</div>
   <section class="question" id="query">
-    <div class="header">Query Center</div>
+   
     <form name="question" method="POST" netlify-honeypot="bot-field" data-netlify="true">
       <p class="hidden" style="display: none;">
         <label>
@@ -272,10 +272,42 @@
     </form>
 
 
+<div class="di"></div>
 
 
+<div class="re">
+  <form class="rev1" method="POST" name="review"><input type="hidden" name="form-name" value="review">
+    <fieldset>
+        <legend style="text-align: center;">
+            Write Your Review
+        </legend>
+        <p class="hidden" style="display: none;">
+            <label>
+                Don’t fill this out if you’re human: <input name="bot-field">
+            </label>
+        </p>
 
+        <label for="name">Name:</label>
 
+        <input type="text" id="name" name="name" fdprocessedid="5w3d3"> <br> <br>
+        Email: <input type="text" id="email" name="email" fdprocessedid="xdsbxg"> <br> <br>
+        Rating: <input type="radio" id="1-star" name="rating" value="1">
+        <label for="1-star">Bad</label>
+        <input type="radio" id="2-star" name="rating" value="2">
+        <label for="2-star">Normal</label>
+        <input type="radio" id="3-star" name="rating" value="3">
+        <label for="3-star">Good</label>
+        <input type="radio" id="4-star" name="rating" value="4">
+        <label for="4-star">Excellent</label>
+        <input type="radio" id="5-star" name="rating" value="5">
+        <label for="5-star">Best</label> <br> <br>
+        <label for="review">Review:</label>
+        <textarea id="review" name="review"></textarea>
+        <input style="border: none; background-color:rgba(15, 15, 15, 0.637);color:#f3f0f0" type="submit" value="Submit" fdprocessedid="7lx8nm">
+    </fieldset>
+</form>
+
+</div>
   </section>
   <hr>
   <footer style="text-align: center;">
