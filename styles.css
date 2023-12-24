@@ -131,17 +131,22 @@ background-color: rgba(0, 0, 0, 0.404);
     #break {
       margin-top: 0px; /* Adjust this value as needed */
     }
+
   }
+  
   #break{
 color: rgba(8, 8, 8, 0.815);
 font-weight: bold;
 background-color: rgba(238, 233, 233, 0.171);
 font-family: Arial, Helvetica, sans-serif;
+scroll-behavior: auto;
+scroll-padding-top: 30;
   }
   .re , .question{
 
     background-color: rgba(209, 209, 209, 0.089);
   }
+
 .diverder{
 text-align: center;
 }
