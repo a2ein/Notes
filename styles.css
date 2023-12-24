@@ -26,9 +26,10 @@ justify-content: space-around;
 }
 #cc a{
 font-weight: bold;
-background-color: rgba(3, 0, 0, 0.014);
+background-color: rgba(3, 0, 0, 0.048);
 color: rgb(255, 255, 255);
     text-decoration: none;
+text-shadow: 2px 2px 4px #000000;
 }
 .header{
    text-align: center;
