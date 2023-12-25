@@ -24,13 +24,20 @@ flex-direction: row;
 justify-content: space-around;
     list-style:none ;
 }
-#cc a{
+.btn-group a{
 font-weight: bold;
 background-color: rgba(3, 0, 0, 0.048);
-color: rgb(255, 255, 255);
+color: rgba(228, 225, 225, 0.925);
     text-decoration: none;
 text-shadow: 2px 2px 4px #000000;
 }
+.btn-group{
+position: absolute;
+
+flex-direction:row ;
+flex-wrap: wrap;
+    display: flex;
+}.dropdown{padding: 2%;}
 .header{
    text-align: center;
    font-size: 25px;
