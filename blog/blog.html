@@ -20,28 +20,55 @@
 </head>
 <body>
   <header>
-    <h1>BLOG ||VLOG </h1>
+    <h1>ARKO'S MEDIA </h1>
   </header>
-<style>
+<main>
 
-iframe{
+<div class="media">
 
-  padding: 20px;
-}
-  .video{
-flex-wrap: wrap;
-    display: flex;justify-content: space-around;flex-direction: row;
-  }
-</style>
-  <main style="align-items: center;">
-    <div class="header">POPULAR CONTENT</div>
+  <iframe  class="monitor" id="videoPlayer" width="400" height="300" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true">
+        <source src="movie.mp4" type="video/mp4">
+       
+    </iframe>
 
-<div class="video"> <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmiz.an.9465%2Fvideos%2F2297334127116122%2F&show_text=false&width=560&t=0" width="250" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>  <hr><iframe  src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmiz.an.9465%2Fvideos%2F228607259651025%2F&show_text=false&width=267&t=0" width="250" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+<hr>
+    <div class="playlist">
+<div class="header">   PLAY LIST</div> 
+<ul><li class="serial">  <button class="playbtn"  onclick="loadVideo('https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmiz.an.9465%2Fvideos%2F228607259651025%2F&show_text=false&width=267&t=0')">Load Video 1</button>
+  
+</li>  
+
+
+<li class="serial">  <button class="playbtn"  onclick="loadVideo('https://www.youtube.com/embed/qUAg5pjQ9fo')">Load Video 1</button>
+  
+</li>  
+
+
+<li class="serial">  <button class="playbtn"  onclick="loadVideo('https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmiz.an.9465%2Fvideos%2F228607259651025%2F&show_text=false&width=267&t=0')">Load Video 3</button>
+  
+</li>  
+
+
+
+<li class="serial">  <button class="playbtn"  onclick="loadVideo('movie1.mp4')">Load Video 1</button>
+  
+</li>  
+
+
+
+</ul>
+
+     
+     
+    </div>
+   
+
 
 </div>
 
-  </main>
 
+<iframe src="https://www.youtube.com/watch?v=I6UO7TPYo4s" frameborder="0"></iframe>
+</main>
   <footer>
     <p>under construction</p>
   </footer>

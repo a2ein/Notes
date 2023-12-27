@@ -1,0 +1,47 @@
+*{
+box-sizing: border-box;
+padding: 0%;
+    margin: 0%; font-family: Arial, Helvetica, sans-serif; font-weight: 800; font-size: 25px;color: #020202ef;
+}
+
+#videoPlayer {
+            width: 400px;
+            height: 300px;
+        }
+
+        .media{ justify-content: space-evenly;
+padding: 10px;
+flex-direction: row;
+flex-wrap: wrap;
+            display: flex; border-color: black; border-style: dotted; border-width: 1px;
+        }
+
+
+        .playlist{ background-size: cover; padding: 10%;; width: fit-content;
+
+            border-width: 1px;
+justify-content: space-around;
+flex-direction: column;
+            display: flex;box-sizing: border-box; background-color: #b6b4b418;
+        }
+
+        .playbtn{ width: 100%;
+padding: 5px;  margin-top: 5px; 
+border: none;
+background-size: cover;
+            background-color: rgb(206, 206, 206);
+        }
+
+        .serial{
+
+
+
+            list-style:decimal
+        }
+
+        .monitor{
+
+width: max-content;
+
+margin-top: 8%;
+        }
