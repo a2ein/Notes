@@ -37,7 +37,7 @@ position: absolute;
 flex-direction:row ;
 flex-wrap: wrap;
     display: flex;
-}.dropdown{padding: 2%;}
+}
 .header{
    text-align: center;
    font-size: 25px;
@@ -139,9 +139,13 @@ background-color: rgba(0, 0, 0, 0.404);
     #break {
       margin-top: 0px; /* Adjust this value as needed */
     }
-
+.dropdown{padding: 2%;  margin-right: 30px;}
+    #dropprob:hover{
+margin-right: 20%;
+    }
   }
-  
+
+
   #break{
 color: rgba(8, 8, 8, 0.815);
 font-weight: bold;
